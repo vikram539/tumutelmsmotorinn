@@ -1,0 +1,70 @@
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Crimson Pro', serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+*{margin:0; padding:0; border:none; box-sizing:border-box;} 
+:root
+{
+	--Crimson: 'Crimson Pro', serif; 
+	--cursive:'Bebas Neue', cursive;
+	--sans-serif:'Josefin Sans', sans-serif;
+	
+	--body-text:#000;
+	--offer-bg:#dfdac7;
+	--offer-text:#000;
+	--offer-close-bg:transparent;
+	--offer-close-text:#fff;
+	--menu-bg:#512a44;
+	--actives:var(--white);
+	--nav-link-a:#fff;
+	--nav-link-hover:#fff;
+	--last-nav-link:#000;
+	--last-nav-focus:#2a2a2a;
+	--book-direct:#512a44;
+	--book-direct-text:#fff;
+	--icon-text:#fff;
+	--h2-color:#512a44;
+	--room-btn:#512a44;
+	--room-btn-color:#fff;
+	--btn-hover:#541d42;
+	--offer-block-1:#000;
+	--gallery-section:#141414;
+	--light-bg:#000;
+	--footer:#170c16;
+	--footer-before:#512a44;
+	--popup-circle-bg:#8bcb74;
+	--popup-border:#13623b;
+	--room-block-btn:#9d7c58;
+	--context:#348915;
+}
+.container
+{
+	max-width:1170px;
+}
+h2
+{
+	font-size: 40px;
+	font-family: var(--Crimson);    
+    line-height: 45px;
+    margin-bottom: 0;
+    color: var(--h2-color);
+}
+h4
+{	
+	font-family: var(--cursive);  
+}
+h3
+{
+	
+    font-size: 35px;
+    margin: 0.8rem 0;
+}
+p
+{
+    letter-spacing: .01rem;
+    line-height: 2rem;
+    word-spacing: 1px;
+    font-size: 18px;
+}

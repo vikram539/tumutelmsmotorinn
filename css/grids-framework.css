@@ -1,0 +1,189 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 0px) and (max-width: 767px) 
+{  
+	h2
+	{
+		text-align:center;
+	}
+	p
+	{
+		text-align:justify;
+	}
+	.unlock-offer
+	{
+		display:none;
+	}
+	.navbar-toggler
+	{		
+		border: none;
+		padding: 0;
+	}
+	.logo
+	{
+		margin-right:0;
+		flex:0 0 45%;
+	}
+	.navbar >ul
+	{
+		
+		font-size:12px;
+		line-height:1;
+	} 
+	.navbar>ul li.nav-links>a
+	{
+		padding: 0.5rem 1rem;
+		font-size:11px;
+		margin-top:3px;
+	}
+	.nav-links span.material-icons
+	{
+		font-size:16px;
+	}
+	.inner-banner 
+	{
+		margin-top: 50px;
+	}
+	.owl-carousel .owl-item img
+	{
+		min-height:180px;
+	}
+	.owl-carousel, inner-banner
+	{
+		margin-top: 40px !important;
+	}
+	.owl-nav button span
+	{
+		font-size:25px !important;
+	}
+	li.carouselitems
+	{
+		margin: 0.2rem 0;
+	}
+	.tweenty4-outer
+	{
+		width:160px;
+		height:60px;
+	}
+	.tweenty4 h2
+	{
+		font-size:0.9rem;
+	}
+	li.carouselitems
+	{
+		flex:0 0 50%;
+		align-items:center;
+	}
+	li.carouselitems img+span
+	{
+		margin-top: 0.5rem;
+		font-size: 9px;
+	}
+	.first-section-content h2
+	{		
+		font-size: 30px;
+	}
+	.offer-heading h2
+	{
+		font-size:28px;
+	}
+	.inner-items h2
+	{
+		font-size: 18px;
+	}
+	.description ul>li
+	{
+		flex: 0 0 calc(100% - 10px);
+	}
+	.footer-content p
+	{
+		text-align:center;
+	}
+	.footer-content 
+	{
+		text-align: center;
+	}
+	.footer-content h3
+	{
+		font-size:1.8rem;
+		margin-bottom:2rem;
+	}
+	.footer-content p
+	{
+		font-size:14px;
+	}
+	a.foot-btn
+	{
+		font-size:14px;
+	}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px)  
+{  
+	/*.navbar>ul 
+	{
+    margin-bottom: 0;
+    position: absolute;
+    top: 5px;
+    left: 209px;
+	} */
+	
+	.unlock-offer
+	{
+		display:none;
+	}
+	.inner-banner 
+	{
+    margin-top: 80px;
+}
+	li.carouselitems
+	{
+		flex:0 0 25%;
+		align-items:center;
+		justify-content:center;
+	}
+	li.carouselitems img+span
+	{
+		margin-top: 0.5rem;
+		flex: 0 0 100%;
+	}
+	.owl-carousel, inner-banner
+	{
+		margin-top:70px !important;
+	}
+	.footer-content p
+	{
+		text-align:center;
+	}
+	.footer-content 
+	{
+		text-align: center;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+	.navbar>ul
+	{
+		position: absolute;
+		right: 0;
+	}
+	
+  li.carouselitems span
+  {
+	  font-size:11px;
+  } 
+	
+}
