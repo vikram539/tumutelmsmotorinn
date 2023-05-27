@@ -2,9 +2,9 @@
 class connection
 {
 	var $host_name="localhost";
-	var $user_name="bradmanm_sapphire";
-	var $password="mal7Am+Cl2qd";
-	var $db_name="bradmanm_sapphirecitymotorinn"; 
+	var $user_name="root";
+	var $password='';
+	var $db_name="tumutelmsmotorinn"; 
 	var $links="";
 	
 	public function __construct()

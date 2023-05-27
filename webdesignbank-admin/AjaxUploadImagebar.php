@@ -39,11 +39,11 @@ if(!is_dir($getpath))
 					<h4>Fail!!!! $getExt, please select valid file type</h4>
 					</div>";
 		}
-		elseif($_FILES['choose_img']['size'][$i] > 650000)
+		elseif($_FILES['choose_img']['size'][$i] > 950000)
 		{
 				echo"<div class='alert alert-danger'>
 					<span class='close' data-dismiss='alert'>X</span>
-					<h4>Fail!!!! file size not more than 650KB</h4>
+					<h4>Fail!!!! file size not more than 950KB</h4>
 					</div>";
 		}
 		else
@@ -55,7 +55,7 @@ if(!is_dir($getpath))
 						
 				$sel_order=$fun_obj->commonSelect_table("cms_gallery","page_id^img_order^pagename","WHERE page_id='$pageID'");
 					$num_row=mysqli_num_rows($sel_order);
-					$lastID=mysqli_insert_id($sel_order);
+					// $lastID=mysqli_insert_id($sel_order);
 					if($num_row>0)
 					{
 						while($fetch=mysqli_fetch_array($sel_order))

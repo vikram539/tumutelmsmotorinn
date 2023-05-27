@@ -49,7 +49,7 @@ $page_ID=0;
 		
 		if(in_array($img_ext, $valid_img))
 		{
-			if($_FILES['bg-img']['size'] > 204800)
+			if($_FILES['bg-img']['size'] > 1004800)
 			{
 				echo"<div class='alert alert-danger'><span class='close' data-dismiss='alert'>X</span>File size not more than 200KB</div>";
 			}

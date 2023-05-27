@@ -5,7 +5,7 @@ include('req-admin/variable-admin.php');
 include('10072019check-login.php');
 include('req-admin/head-include-admin.php');
 $page_ID=0;
-
+$pageID = '';
 ?>
 </head>
 <body> 
@@ -219,9 +219,6 @@ $page_ID=0;
 											}
 													
 												$textUpdate=$fun_obj->commonSelect_table("cms_text",'text_id^text^text_type^text_order',$where_clause='where page_ID="'.$_GET['pageID'].'" ORDER BY text_order ASC');
-												
-												 $num_rows=mysqli_num_rows($textUpdate);
-												
 												?>
                                                 <?php if($usertype['type']=='admin'){ ?>
 												<!--<input type='checkbox' id='checkall'><span>Select All</span>-->
@@ -233,9 +230,7 @@ $page_ID=0;
 											<?php
 												$textArray=array();
 												$textArrayIndex=0;
-						$num_rows=mysqli_num_rows($textUpdate);
-						if($num_rows > 0)
-						{
+												$num_rows=mysqli_num_rows($textUpdate);
 												
 												if($usertype['type']=='client')
 												{
@@ -357,8 +352,6 @@ $page_ID=0;
 										<input type="submit" name="save" value='Save' class="btn btn-info common-btn"> 
                                                 </form>
                                             <?php
-											
-						} //end num rows 
 											}
 											//return $textArray;
 											//print_r($textArray);

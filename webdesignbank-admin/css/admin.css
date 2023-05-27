@@ -1331,7 +1331,7 @@ a.remove:hover,a.remove:focus
 	}	
 	.gallery-table tbody
 	{
-		
+		background: #f5f5f5;
 	}
 	
 	.gallery-table>thead

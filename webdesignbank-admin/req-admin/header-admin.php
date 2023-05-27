@@ -11,7 +11,7 @@
 				<li class='nav-item'><a href="javascript:void(0);" class="nav-link">
 				
 				<?php 
-				$getHotelInfo=$fun_obj->commonSelect_table("cms_hotel_info","hotel_ID^hotel_name",$where_clause);
+				$getHotelInfo=$fun_obj->commonSelect_table("cms_hotel_info","hotel_ID^hotel_name","");
 				//var_dump($getHotelInfo);
 				if(mysqli_num_rows($getHotelInfo)>0)
 				{

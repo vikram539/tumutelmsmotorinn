@@ -1,5 +1,11 @@
 <div class='list-group admin-left'>
-	<?php if($usertype['type']!=='admin')
+	<?php 
+	$display_block_text = "";
+	$display_block_img ="";
+	$issetPageID = "";
+	$issetGalleryID = "";
+
+	if($usertype['type']!=='admin')
 			{ 
 				$li_hide="d-none";
 			}

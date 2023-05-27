@@ -1,7 +1,7 @@
 <footer>
 	<div class="container pt-4 pb-4">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 				<div class="footer-content">					
 					<?php
 						if($hotel_info_array['hotel_name']!='')
@@ -18,10 +18,9 @@
 					
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"> 
 				<div class='footer-content'>
-					
-					<?php
+				<?php
 						if($ph_exp[0]!='')
 						echo"<p>Reservation: <a href='tel:".$ph_exp[0]."' title='Contact No'>".$ph_exp[0]."</a></p>";
 					?>
@@ -29,11 +28,6 @@
 						if($hotel_info_array['hotel_email']!='')
 						echo"<p><a href='mailto:".$hotel_info_array['hotel_email']."' title='Email'>".$hotel_info_array['hotel_email']."</p>";
 					?>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"> 
-				<div class='footer-content'>
-					<a href="<?=$check_rates;?>" class="foot-btn" title="Book Now" target="_blank">UNLOCK EXCLUSIVE OFFERS</a>
 					<?php
 					$path =$website_images."credit-cards-accepted.png";
 							$type = pathinfo($path, PATHINFO_EXTENSION);

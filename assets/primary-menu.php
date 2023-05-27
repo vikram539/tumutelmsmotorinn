@@ -1,13 +1,4 @@
-<div class="sticky-header header-bg">
-	<div class="unlock-offer">
-		<div class="container-fluid">
-			<a href="<?=$check_rates?>" target="_blank" class="offer-href">
-				<span class="material-icons">key&nbsp;</span>
-				<span aria-hidden="true">Unlock Offer</span>
-			</a>			
-		</div>
-		<span id='close'>X</span>
-	</div>
+<div class="sticky-header header-bg">	
 	<div class="top-primary-menu">	
 		<div class="container-fluid">
 			<nav class="navbar navbar-dark navbar-expand-xl">

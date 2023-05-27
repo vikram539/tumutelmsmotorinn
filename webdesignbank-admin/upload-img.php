@@ -74,7 +74,7 @@ $page_ID=0;
 												echo $fun_obj->Upload_img();
 												
 												echo"<h4>images update panel (You can drag and drop the row to change page order)</h4>";
-												$getImages=$fun_obj->commonSelect_table("cms_gallery","gallery_id^page_ID^pagename^small_img^img_order^flag^img_description^img_for_thumb^img_for_slider","WHERE page_ID='".$_GET['upload_img']."' ORDER BY cast(img_order as int)");
+												$getImages=$fun_obj->commonSelect_table("cms_gallery","gallery_id^page_ID^pagename^small_img^img_order^flag^img_description^img_for_thumb^img_for_slider","WHERE page_ID='".$_GET['upload_img']."' ORDER BY img_order ASC");
 												$sr_no=1;
 												
 												
